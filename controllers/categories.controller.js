@@ -129,7 +129,7 @@ exports.delete = (req, res, next) => {
         if (error) {
             return next(error);
 
-        }
+        } 
         else {
             return res.status(200).send({
                 message: "Success",
