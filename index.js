@@ -1,7 +1,8 @@
 const express =  require("express");
 const app = express();
 const mongoose = require("mongoose")
-const {MONGO_DB_CONFIG} = requiure("./config/app.config");
+const { MONGO_DB_CONFIG } = require("./config/app.config");
+
 const errors = require("./middleware/errors.js")
 const swaggerUi= require("swagger-ui-express"),swaggerDocument=require("./swagger.json");
 
